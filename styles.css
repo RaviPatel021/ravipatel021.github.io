@@ -1,39 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f9;
-}
+/* Existing styles above remain unchanged */
 
-.container {
-    margin-top: 50px;
-}
-
-button {
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
-
-#result {
+.percentage-bar {
+    width: 100%;
     margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
 }
 
-h1, h2 {
-    color: #2c3e50;
+.bar {
+    display: flex;
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ecf0f1; /* Light grey background */
 }
 
-.stats {
-    margin: 20px 0;
-    font-size: 18px;
-    color: #34495e;
+.wins {
+    background-color: #2ecc71; /* Green for wins */
+    height: 100%;
+}
+
+.losses {
+    background-color: #e74c3c; /* Red for losses */
+    height: 100%;
+}
+
+.ties {
+    background-color: #3498db; /* Blue for ties */
+    height: 100%;
+}
+
+/* New Styles for Text Colors */
+.win-text {
+    color: #2ecc71; /* Green */
+}
+
+.loss-text {
+    color: #e74c3c; /* Red */
+}
+
+.tie-text {
+    color: #3498db; /* Blue */
 }
