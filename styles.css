@@ -31,3 +31,9 @@ button:hover {
 h1, h2 {
     color: #2c3e50;
 }
+
+.stats {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #34495e;
+}
