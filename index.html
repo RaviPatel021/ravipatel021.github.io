@@ -2,28 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Ravi's Personal Website">
-    <link rel="stylesheet" href="stylesheet.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Computer vs Human</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="div1">
-
-        <title >Ravi Patel</title>
-        <h1 id = "name" class="center">Ravi Patel</h1>
-
-        <img src="IMG-3409.jpg" alt="Picture" height="200">
-        <p class="center">Welcome to my page</p>
+    <div class="container">
+        <h1>Rock Paper Scissors - Computer vs Human</h1>
+        <div class="game">
+            <div class="human">
+                <h2>Choose your move:</h2>
+                <button onclick="playGame('rock')">Rock</button>
+                <button onclick="playGame('paper')">Paper</button>
+                <button onclick="playGame('scissors')">Scissors</button>
+            </div>
+            <div class="computer">
+                <h2>Computer's move:</h2>
+                <div id="computer-move">Waiting...</div>
+            </div>
+        </div>
+        <div id="result"></div>
     </div>
-
-
-    <div class="div2">
-        <meta charset="UTF-8">
-        <a class="link" href="https://www.linkedin.com/in/ravipatel2003/"><p style="text-align:center">LinkedIn</p></a>
-    </div>
-
-
-
+    <script src="script.js"></script>
 </body>
 </html>
