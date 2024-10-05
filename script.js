@@ -94,3 +94,4 @@ function getPercentage(count) {
 
 // Initialize the session log at the beginning of the game
 initializeSessionLog();
+
